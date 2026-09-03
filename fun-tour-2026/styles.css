@@ -1,0 +1,150 @@
+:root {
+  --teal: #126a6d;
+  --teal-dark: #07535a;
+  --purple: #7145a5;
+  --gold: #fff3a8;
+  --ink: #1e2728;
+  --muted: #687071;
+  --paper: #fff;
+  --canvas: #ececec;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  color: var(--ink);
+  background: var(--canvas);
+  font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+  line-height: 1.55;
+}
+a { color: inherit; }
+img { display: block; max-width: 100%; }
+
+.paper {
+  width: min(100%, 415px);
+  min-height: 100vh;
+  margin: 0 auto;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 0 28px rgba(0,0,0,.08);
+}
+
+.cover {
+  position: relative;
+  height: 415px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  background:
+    linear-gradient(180deg, rgba(3,31,40,.10), rgba(3,31,40,.18)),
+    url("assets/changbai-card.jpg") center / cover no-repeat;
+}
+.cover::after { content: ""; position: absolute; inset: auto 0 0; height: 22px; background: #6b2f07; }
+.cover-meta { position: absolute; z-index: 1; top: 48px; left: 0; right: 0; display: flex; justify-content: space-around; color: rgba(255,255,255,.88); font-size: 9px; line-height: 1.2; letter-spacing: .08em; }
+.cover-title { position: relative; z-index: 1; margin-top: -6px; font-family: "Songti SC", "STSong", serif; font-size: 55px; font-weight: 700; line-height: 1.08; letter-spacing: -.05em; text-shadow: 0 2px 18px rgba(0,0,0,.32); }
+.cover-title small { display: block; margin-top: 14px; font-family: inherit; font-size: 17px; font-weight: 400; letter-spacing: .12em; }
+.cover-person { position: absolute; z-index: 1; bottom: 42px; font-size: 11px; letter-spacing: .18em; }
+
+.poster-list { padding: 10px 8px 14px; background: #fff; }
+.poster {
+  display: block;
+  margin: 0 0 10px;
+  overflow: hidden;
+  border: 1px solid #e6e6e6;
+  border-radius: 17px;
+  background: #fff;
+  box-shadow: 0 3px 10px rgba(0,0,0,.20);
+  text-decoration: none;
+}
+.poster-photo {
+  position: relative;
+  height: 180px;
+  overflow: hidden;
+  color: #fff;
+  text-align: center;
+  background-position: center;
+  background-size: cover;
+}
+.poster-photo::before { content: ""; position: absolute; inset: 0; background: rgba(5,29,33,.35); }
+.poster.changbai .poster-photo { background-image: url("assets/changbai-card.jpg"); }
+.poster.tumen .poster-photo { background-image: url("assets/tumen-card.jpg"); }
+.poster.arctic .poster-photo { background-image: url("assets/arctic-card.jpg"); background-position: center 18%; }
+.group-tag { position: absolute; z-index: 1; top: 18px; left: 32px; font-size: 13px; font-weight: 700; }
+.photo-code { position: absolute; z-index: 1; top: 18px; right: 28px; font-size: 8px; font-weight: 700; line-height: 1.15; letter-spacing: .04em; }
+.poster-title { position: absolute; z-index: 1; left: 10px; right: 10px; top: 46px; font-family: "Songti SC", "STSong", serif; color: var(--gold); font-size: 41px; font-weight: 700; line-height: 1; letter-spacing: -.06em; text-shadow: 0 2px 10px rgba(0,0,0,.32); }
+.poster-subtitle { position: absolute; z-index: 1; left: 20px; right: 20px; bottom: 30px; font-family: "Songti SC", "STSong", serif; font-size: 14px; }
+
+.poster-info { min-height: 147px; display: grid; grid-template-columns: 1fr 112px; padding: 20px 14px 15px 16px; }
+.selling-points { list-style: none; margin: 0; padding: 0 10px 0 0; display: grid; align-content: start; gap: 5px; }
+.selling-points li { display: grid; grid-template-columns: 17px 1fr; gap: 5px; color: #1d2a2b; font-size: 11.5px; line-height: 1.35; font-weight: 600; }
+.num { width: 14px; height: 14px; margin-top: 1px; display: grid; place-items: center; border-radius: 50%; background: var(--purple); color: #fff; font-size: 9px; font-weight: 800; }
+.route-strip { margin-top: 8px; padding: 2px 8px 3px; color: #fff; background: linear-gradient(90deg, var(--teal) 70%, rgba(18,106,109,0)); font-size: 14px; font-weight: 800; letter-spacing: .04em; }
+.tap-box { position: relative; border-left: 1px solid #979797; display: flex; flex-direction: column; align-items: center; }
+.tap-box::before { content: ""; position: absolute; left: -1px; top: 55px; border-top: 10px solid transparent; border-bottom: 10px solid transparent; border-left: 14px solid #aaa; }
+.schedule { padding: 3px 8px; border-radius: 7px; color: #fff; background: var(--teal); font-size: 10.5px; font-weight: 800; white-space: nowrap; }
+.tap-copy { margin-top: 5px; color: #102326; font-size: 11px; font-weight: 800; white-space: nowrap; }
+.tap-icon { position: relative; width: 45px; height: 50px; margin-top: 7px; color: var(--teal); font-size: 45px; line-height: 1; transform: rotate(-8deg); }
+.tap-icon::before { content: "☝"; }
+
+.landing-note { padding: 18px 32px 35px; color: #797979; background: #fff; font-size: 10px; text-align: center; }
+
+.topbar { position: sticky; top: 0; z-index: 20; background: rgba(255,255,255,.94); border-bottom: 1px solid #e9e9e9; backdrop-filter: blur(12px); }
+.topbar .shell { width: min(100% - 28px, 415px); min-height: 48px; margin: auto; display: flex; align-items: center; justify-content: space-between; }
+.brand { color: var(--teal-dark); font-weight: 800; letter-spacing: .08em; text-decoration: none; }
+.back { color: #6b7475; font-size: 12px; text-decoration: none; }
+
+.shell { width: min(100% - 32px, 415px); margin: 0 auto; }
+.detail-hero { position: relative; width: min(100%, 415px); min-height: 360px; margin: auto; display: flex; align-items: flex-end; color: #fff; background-position: center; background-size: cover; }
+.detail-hero::before { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(3,24,28,.10), rgba(3,24,28,.82)); }
+.detail-hero.changbai { background-image: url("assets/changbai-card.jpg"); }
+.detail-hero.tumen { background-image: url("assets/tumen-card.jpg"); }
+.detail-hero.arctic { background-image: url("assets/arctic-card.jpg"); background-position: center 18%; }
+.detail-hero .shell { position: relative; z-index: 1; padding-bottom: 38px; }
+.eyebrow, .section-kicker { color: var(--teal); font-size: 10px; font-weight: 900; letter-spacing: .2em; text-transform: uppercase; }
+.detail-hero .eyebrow { color: rgba(255,255,255,.72); }
+.detail-hero h1 { margin: 7px 0 0; font-family: "Songti SC", "STSong", serif; font-size: 43px; line-height: 1.08; }
+.detail-hero .sub { margin: 10px 0 0; color: rgba(255,255,255,.82); font-size: 13px; }
+.facts { width: min(100%, 415px); margin: auto; display: grid; grid-template-columns: 1fr 1fr; border-bottom: 1px solid #e8e8e8; background: #fff; }
+.fact { padding: 16px 10px; text-align: center; border-right: 1px solid #eee; border-top: 1px solid #eee; }
+.fact:nth-child(2n) { border-right: 0; }
+.fact span { display: block; color: #8a8f90; font-size: 9px; letter-spacing: .08em; }
+.fact strong { display: block; margin-top: 2px; font-size: 13px; }
+
+.detail-main { width: min(100%, 415px); padding: 38px 24px 56px; background: #fff; }
+.detail-layout { display: block; }
+.detail-section { margin-bottom: 48px; }
+.detail-section h2 { margin: 5px 0 23px; font-family: "Songti SC", "STSong", serif; font-size: 28px; }
+.timeline { margin-left: 8px; padding-left: 24px; border-left: 1px solid rgba(18,106,109,.35); }
+.day { position: relative; padding-bottom: 28px; }
+.day:last-child { padding-bottom: 0; }
+.day::before { content: ""; position: absolute; left: -30px; top: 4px; width: 10px; height: 10px; border: 3px solid #fff; border-radius: 50%; background: var(--purple); box-shadow: 0 0 0 1px var(--purple); }
+.day-label { color: var(--teal); font-size: 10px; font-weight: 900; letter-spacing: .14em; }
+.day h3 { margin: 3px 0 7px; font-size: 16px; line-height: 1.45; }
+.day p { margin: 0; color: var(--muted); font-size: 12px; line-height: 1.7; }
+.info-grid { display: grid; gap: 10px; }
+.info-card { padding: 18px; border-radius: 10px; background: #f5f8f7; }
+.info-card h3 { margin: 0 0 5px; color: var(--teal-dark); font-size: 14px; }
+.info-card p, .info-card li { margin: 0; color: var(--muted); font-size: 12px; }
+.info-card ul { margin: 6px 0 0; padding-left: 17px; }
+.notice { padding: 16px; border-left: 4px solid var(--teal); background: #edf6f5; color: #3f5555; font-size: 12px; }
+.sidebar { display: grid; gap: 10px; }
+.side-card { padding: 18px; border: 1px solid #e9e9e9; border-radius: 10px; background: #fff; }
+.side-card.accent { border: 0; color: #fff; background: var(--teal); }
+.side-card h3 { margin: 0 0 7px; font-size: 14px; }
+.side-card p { margin: 0; color: #737a7b; font-size: 12px; }
+.side-card.accent p { color: rgba(255,255,255,.8); }
+.mini-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; color: #687071; font-size: 12px; }
+.mini-list li::before { content: "●"; margin-right: 7px; color: var(--purple); font-size: 8px; }
+.footer { width: min(100%, 415px); margin: auto; padding: 25px 28px 32px; color: #888; background: #fff; border-top: 1px solid #ededed; font-size: 9px; text-align: center; }
+
+@media (max-width: 390px) {
+  .cover { height: 390px; }
+  .cover-title { font-size: 50px; }
+  .poster-photo { height: 170px; }
+  .poster-info { grid-template-columns: 1fr 102px; padding-left: 12px; padding-right: 10px; }
+  .selling-points li { font-size: 10.8px; }
+  .route-strip { font-size: 12.5px; }
+}
