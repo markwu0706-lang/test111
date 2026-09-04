@@ -1,0 +1,117 @@
+:root {
+  --amber: #b95f22;
+  --amber-dark: #6f3516;
+  --rust: #8f3e24;
+  --gold: #f4ca73;
+  --cream: #fbf5e8;
+  --paper: #fffdf8;
+  --ink: #29231e;
+  --muted: #776d63;
+  --line: #eadbc4;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  color: var(--ink);
+  background: #e9e4dd;
+  font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+  line-height: 1.65;
+}
+a { color: inherit; }
+img { display: block; width: 100%; }
+.global-home { position: fixed; z-index: 40; top: 14px; left: max(14px, calc(50% - 202px)); padding: 8px 12px; border-radius: 999px; color: #fff; background: rgba(0,132,204,.92); backdrop-filter: blur(9px); font-size: 10px; font-weight: 800; letter-spacing: .05em; text-decoration: none; }
+.page { width: min(100%, 430px); min-height: 100vh; margin: auto; overflow: hidden; background: var(--paper); box-shadow: 0 0 34px rgba(58, 37, 20, .12); }
+.shell { width: min(100% - 36px, 394px); margin: 0 auto; }
+
+.topbar { position: sticky; top: 0; z-index: 30; background: rgba(255,253,248,.94); border-bottom: 1px solid rgba(111,53,22,.12); backdrop-filter: blur(12px); }
+.topbar .shell { min-height: 54px; display: flex; align-items: center; justify-content: space-between; }
+.brand { color: #0084cc; font-family: "Songti SC", STSong, serif; font-size: 17px; font-weight: 800; letter-spacing: .08em; text-decoration: none; }
+.back { color: var(--muted); font-size: 12px; text-decoration: none; }
+
+.landing-hero { position: relative; min-height: 470px; display: flex; align-items: flex-end; background: url("assets/aershan-tianchi.jpg") center / cover no-repeat; color: #fff; }
+.landing-hero::before { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(47,28,9,.05) 24%, rgba(57,25,8,.86) 100%); }
+.hero-copy { position: relative; z-index: 1; padding: 0 28px 42px; }
+.eyebrow { margin: 0 0 10px; color: var(--gold); font-size: 11px; font-weight: 800; letter-spacing: .2em; text-transform: uppercase; }
+.landing-hero h1 { margin: 0; font-family: "Songti SC", STSong, serif; font-size: 48px; line-height: 1.02; letter-spacing: -.05em; }
+.landing-hero p:last-child { margin: 16px 0 0; color: rgba(255,255,255,.9); font-size: 14px; }
+.hero-stamp { position: absolute; z-index: 1; top: 28px; right: 24px; width: 78px; height: 78px; display: grid; place-items: center; border: 1px solid rgba(255,255,255,.75); border-radius: 50%; color: #fff; font-family: serif; font-size: 11px; line-height: 1.25; letter-spacing: .08em; text-align: center; transform: rotate(8deg); }
+
+.intro { padding: 34px 26px 16px; text-align: center; }
+.intro h2, .section h2 { margin: 4px 0 10px; font-family: "Songti SC", STSong, serif; font-size: 31px; line-height: 1.2; }
+.intro p { margin: 0; color: var(--muted); font-size: 13px; }
+.kicker { color: var(--amber); font-size: 10px; font-weight: 800; letter-spacing: .22em; text-transform: uppercase; }
+
+.route-list { padding: 8px 12px 34px; }
+.route-card { display: block; margin: 14px 0; overflow: hidden; border-radius: 22px; background: #fff; box-shadow: 0 10px 28px rgba(82,45,20,.15); text-decoration: none; }
+.route-image { position: relative; height: 225px; background-position: center; background-size: cover; }
+.route-card.dual .route-image { background-image: linear-gradient(180deg, transparent 30%, rgba(50,22,5,.72)), url("assets/daxinganling-river-hd.jpg"); }
+.route-card.aershan .route-image { background-image: linear-gradient(180deg, transparent 30%, rgba(50,22,5,.72)), url("assets/aershan-tianchi.jpg"); }
+.route-card.forest .route-image { background-image: linear-gradient(180deg, transparent 30%, rgba(50,22,5,.72)), url("assets/daxinganling-clean-c.jpg"); }
+.route-badge { position: absolute; top: 16px; left: 16px; padding: 5px 10px; border-radius: 999px; color: #fff; background: rgba(111,53,22,.86); font-size: 10px; font-weight: 800; letter-spacing: .08em; }
+.route-title { position: absolute; left: 18px; right: 18px; bottom: 18px; color: #fff; }
+.route-title small { display: block; margin-bottom: 6px; color: var(--gold); font-size: 11px; font-weight: 700; letter-spacing: .08em; }
+.route-title strong { display: block; font-family: "Songti SC", STSong, serif; font-size: 28px; line-height: 1.1; }
+.route-body { padding: 18px 19px 20px; }
+.route-body p { margin: 0 0 13px; color: var(--muted); font-size: 12px; }
+.route-points { display: flex; flex-wrap: wrap; gap: 6px; }
+.route-points span { padding: 4px 8px; border-radius: 8px; color: var(--amber-dark); background: #fbefdc; font-size: 10px; font-weight: 700; }
+.route-cta { margin-top: 15px; display: flex; align-items: center; justify-content: space-between; color: var(--amber); font-size: 12px; font-weight: 800; }
+.landing-foot { padding: 22px 28px 36px; color: #8b8176; background: #f7efe2; font-size: 10px; text-align: center; }
+
+.detail-hero { position: relative; min-height: 410px; display: flex; align-items: flex-end; color: #fff; background-position: center; background-size: cover; }
+.detail-hero::before { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(40,22,6,.05) 22%, rgba(56,25,7,.9)); }
+.detail-hero.dual { background-image: url("assets/daxinganling-river-hd.jpg"); }
+.detail-hero.aershan { background-image: url("assets/aershan-tianchi.jpg"); }
+.detail-hero.forest { background-image: url("assets/daxinganling-clean-c.jpg"); }
+.detail-hero .hero-copy { padding: 0 24px 32px; }
+.detail-hero h1 { margin: 0; font-family: "Songti SC", STSong, serif; font-size: 37px; line-height: 1.08; letter-spacing: -.04em; }
+.detail-hero .sub { margin: 13px 0 0; color: rgba(255,255,255,.88); font-size: 13px; }
+.facts { display: grid; grid-template-columns: repeat(4,1fr); background: var(--amber-dark); color: #fff; }
+.fact { padding: 14px 6px; border-right: 1px solid rgba(255,255,255,.16); text-align: center; }
+.fact:last-child { border: 0; }
+.fact span { display: block; color: rgba(255,255,255,.66); font-size: 9px; }
+.fact strong { display: block; margin-top: 2px; font-size: 12px; }
+
+.section { padding: 44px 20px 0; }
+.section-intro { margin: 0 0 22px; color: var(--muted); font-size: 13px; }
+.album { display: grid; gap: 12px; }
+.album img { height: 255px; object-fit: cover; border-radius: 18px; box-shadow: 0 8px 22px rgba(79,44,18,.13); }
+.album img.tall { height: 320px; }
+
+.timeline { position: relative; margin-top: 24px; padding-left: 20px; }
+.timeline::before { content: ""; position: absolute; left: 5px; top: 8px; bottom: 8px; width: 1px; background: #dcb88d; }
+.day { position: relative; padding: 0 0 28px 16px; }
+.day::before { content: ""; position: absolute; left: -20px; top: 4px; width: 9px; height: 9px; border: 3px solid var(--amber); border-radius: 50%; background: var(--paper); }
+.day-label { color: var(--amber); font-size: 10px; font-weight: 900; letter-spacing: .16em; }
+.day h3 { margin: 5px 0 7px; font-size: 17px; line-height: 1.4; }
+.day p { margin: 0; color: var(--muted); font-size: 12px; }
+
+.media-subhead { margin: 24px 0 12px; color: var(--amber-dark); font-size: 15px; }
+.media-grid { display: grid; grid-template-columns: 1fr; gap: 16px; }
+.media-card { overflow: hidden; border: 1px solid var(--line); border-radius: 14px; background: #fff; }
+.media-card.wide { grid-column: 1 / -1; }
+.media-card img { height: auto; object-fit: contain; background: #f5efe7; }
+.media-card.wide img { height: auto; }
+.media-card figcaption { padding: 9px 10px 10px; font-size: 10px; }
+.spec-list { margin-top: 20px; border-top: 1px solid var(--line); }
+.spec-row { display: grid; grid-template-columns: 90px 1fr; gap: 12px; padding: 13px 0; border-bottom: 1px solid var(--line); font-size: 11px; }
+.spec-row span { color: var(--muted); }
+.spec-row strong { font-weight: 700; }
+
+.info-grid { display: grid; gap: 10px; margin-top: 20px; }
+.info-card { padding: 17px; border: 1px solid var(--line); border-radius: 15px; background: #fff; }
+.info-card h3 { margin: 0 0 6px; color: var(--amber-dark); font-size: 14px; }
+.info-card p { margin: 0; color: var(--muted); font-size: 11px; }
+.notice { margin-top: 18px; padding: 18px; border-left: 4px solid var(--amber); border-radius: 0 14px 14px 0; color: #68472e; background: #fbefdc; font-size: 11px; }
+.footer { margin-top: 48px; padding: 28px 24px 36px; color: rgba(255,255,255,.7); background: #382012; font-size: 10px; text-align: center; }
+
+@media (max-width: 360px) {
+  .landing-hero h1 { font-size: 42px; }
+  .detail-hero h1 { font-size: 33px; }
+  .facts { grid-template-columns: 1fr 1fr; }
+  .fact:nth-child(2) { border-right: 0; }
+  .media-grid { grid-template-columns: 1fr; }
+  .media-card.wide { grid-column: auto; }
+}

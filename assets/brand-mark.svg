@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">享轻松旅行品牌标志</title>
+  <desc id="desc">朝阳、山峰与蜿蜒道路组成的旅行标志</desc>
+  <g fill="none" stroke="#0084cc" stroke-width="3" stroke-linecap="round">
+    <path d="M32 4v6"/><path d="M16 10l4 5"/><path d="M48 10l-4 5"/><path d="M7 23l7 2"/><path d="M57 23l-7 2"/>
+  </g>
+  <path fill="#0084cc" d="M17 29a15 15 0 0 1 30 0v5H17z"/>
+  <path fill="#10233b" d="M5 38 18 27l10 8 10-12 11 11 6-5 6 9v12a27.5 27.5 0 0 1-56 0z"/>
+  <path fill="#f2f9fd" d="M29 33c6 5 15 7 11 13-3 5-12 5-9 16h-8c-2-13 9-16 11-20 2-3-4-5-9-7z"/>
+  <path fill="#0084cc" d="M29 34c4 4 10 6 7 10-3 4-9 6-9 14h4c0-6 6-8 9-13 3-5-5-8-11-11z"/>
+</svg>
