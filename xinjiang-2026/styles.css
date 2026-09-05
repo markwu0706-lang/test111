@@ -11,6 +11,51 @@
   --line: rgba(23, 37, 44, .13);
 }
 
+/* Product routes share the collection's 1280px page width. */
+.xinjiang-detail { background: #eef5f9; font-size: 16px; }
+.xinjiang-detail main, .xinjiang-detail footer, .xinjiang-detail .topbar { max-width: 1280px; margin-left: auto; margin-right: auto; }
+.xinjiang-detail main { background: #fff; }
+.xinjiang-detail .hero { min-height: 620px; }
+.xinjiang-detail .hero h1 { font-size: clamp(48px, 6vw, 80px); line-height: 1.08; }
+.xinjiang-detail .hero-copy { padding-top: 90px; padding-bottom: 120px; }
+.detail-back { display: inline-flex; align-items: center; min-height: 44px; margin-bottom: 15px; font-size: 14px; }
+.xinjiang-detail .hero-stats { font-size: 14px; }
+.xinjiang-detail .hero-stats span, .xinjiang-detail .eyebrow { font-size: 12px; }
+.xinjiang-detail .timeline p, .xinjiang-detail .highlight-grid p, .xinjiang-detail .notes li, .xinjiang-detail .service-grid li { font-size: 16px; }
+.xinjiang-detail .timeline small { font-size: 14px; }
+.xinjiang-detail .timeline::before { left: 38px; }
+.xinjiang-detail .album { grid-template-columns: repeat(3, minmax(0, 1fr)); grid-template-rows: auto; }
+.xinjiang-detail .album > div { aspect-ratio: 3 / 2; }
+.xinjiang-detail .album .album-main { grid-row: auto; grid-column: auto; }
+.xinjiang-detail a:focus-visible { outline: 3px solid #79cbea; outline-offset: 5px; }
+.product-overview { padding: 72px 0 80px; }
+.product-facts { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); margin: 0; border: 1px solid #dbe8ef; border-radius: 18px; overflow: hidden; }
+.product-facts > div { padding: 24px; border-right: 1px solid #dbe8ef; }
+.product-facts > div:last-child { border-right: 0; }
+.product-facts dt { font-size: 14px; color: #657582; }
+.product-facts dd { margin: 9px 0 0; font-size: 20px; font-weight: 700; }
+.route-enquiry { padding: 30px; margin: 28px 0; background: #eaf6fc; border-radius: 18px; }
+.route-enquiry h3 { margin: 0 0 12px; font-size: 22px; }
+.route-enquiry p { margin: 0; font-size: 16px; line-height: 1.8; }
+.button.outline { color: #006aa3; border: 1px solid #0084cc; border-radius: 8px; }
+@media (max-width: 680px) {
+  .xinjiang-detail .hero { min-height: 670px; }
+  .xinjiang-detail .hero-copy { padding-top: 100px; padding-bottom: 115px; }
+  .xinjiang-detail .hero h1 { font-size: 48px; }
+  .xinjiang-detail .timeline::before { left: 31px; }
+  .xinjiang-detail .album { grid-template-columns: 1fr; }
+  .xinjiang-detail .hero-stats { left: 16px; right: 16px; }
+  .xinjiang-detail .nav-shell { height: 72px; }
+  .xinjiang-detail .brand img { width: 60px; }
+  .product-facts { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .product-facts > div { padding: 20px 16px; }
+  .product-facts > div:nth-child(2) { border-right: 0; }
+  .product-facts > div:nth-child(-n+2) { border-bottom: 1px solid #dbe8ef; }
+  .product-facts dd { font-size: 18px; }
+  .product-overview { padding: 48px 0; }
+  .route-enquiry { padding: 24px; }
+}
+
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 body { margin: 0; color: var(--ink); background: var(--paper); font-family: Inter, "PingFang SC", "HarmonyOS Sans SC", "Microsoft YaHei", sans-serif; }
