@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="zh-CN" class="standalone-document">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -9,24 +9,25 @@
   <link rel="icon" href="../assets/brand-symbol.jpg">
   <link rel="stylesheet" href="styles.css?v=20260904b">
   <link rel="stylesheet" href="../site-ui.css?v=20260905r1">
+<link rel="stylesheet" href="../standalone-pages.css?v=20260906h1">
 </head>
-<body class="detail route-unavailable">
-  <header class="topbar"><div class="shell"><a class="brand" href="../"><img src="../assets/brand-symbol.jpg" alt=""><span>享轻松旅行</span></a><nav><a href="./">北京线路</a><a href="../#collections">全部主题</a><a href="../#contact">选线指南</a></nav></div></header>
+<body class="standalone-page detail route-unavailable">
+
   <a class="skip-link" href="#main-content">跳到主要内容</a>
   <section class="route-error" id="route-state" aria-live="polite"><h1>线路信息</h1><p>页面未能显示？请刷新重试，或返回合集重新选择线路。</p><noscript><p>请启用浏览器 JavaScript，以查看完整行程。</p></noscript><a href="./">返回北京线路合集</a></section>
   <main id="main-content" hidden>
-    <section class="hero"><img id="heroImage" alt="北京旅行"><div class="shell hero-copy"><a class="back" href="./">← 返回北京线路合集</a><p class="eyebrow">BEIJING · CURATED JOURNEY</p><h1 id="routeTitle"></h1><p class="hero-lead" id="routeLead"></p><div class="hero-actions"><a class="button primary" href="#itinerarySection">查看每日行程</a><a class="button ghost" href="../#contact">查看报名须知</a></div></div></section>
+    <section class="hero"><img decoding="async" id="heroImage" alt="北京旅行"><div class="shell hero-copy"><a class="back" href="./">← 返回北京线路合集</a><p class="eyebrow">BEIJING · CURATED JOURNEY</p><h1 id="routeTitle"></h1><p class="hero-lead" id="routeLead"></p><div class="hero-actions"><a class="button primary" href="#itinerarySection">查看每日行程</a><a class="button ghost" href="#noticeSection">查看预约提醒</a></div></div></section>
     <section class="quick shell" id="routeMeta"></section><nav class="legacy-jumplinks" aria-label="行程章节"><div><a href="#albumSection">风景画册</a><a href="#itinerarySection">每日行程</a><a href="#staySection">住宿与服务</a><a href="#noticeSection">预约提醒</a></div></nav>
     <div class="shell detail-main">
-      <section class="detail-section" id="albumSection"><div class="section-title"><small>TRAVEL ALBUM</small><h2>把北京装进画册</h2></div><div class="photo-grid" id="photoGrid"></div></section>
+      <section class="detail-section" id="albumSection"><div class="section-title"><small>TRAVEL ALBUM</small><h2>把北京装进画册</h2></div><div class="photo-grid" id="photoGrid"></div><details class="photo-sources"><summary>摄影来源</summary><p>图片：Unsplash、Pexels、Wikimedia Commons；颐和园 Uwe Aranas / CC BY-SA，环球入口 Owen3droblox / CC BY-SA。</p></details></section>
       <section class="detail-section"><div class="section-title"><small>WHY THIS JOURNEY</small><h2>这条线路的亮点</h2></div><div class="highlight-grid" id="highlights"></div></section>
       <section class="detail-section" id="itinerarySection"><div class="section-title"><small>DAILY ITINERARY</small><h2><span id="routeDays"></span>行程安排</h2></div><div class="timeline" id="itinerary"></div></section>
       <section class="detail-section" id="staySection"><div class="section-title"><small>STAY & SERVICE</small><h2>住宿与服务</h2></div><div class="service-grid"><article class="service"><h3>住宿安排</h3><p id="stay"></p><p><b id="routeGroup"></b> · <span id="routeTag"></span></p></article><article class="service"><h3>费用包含</h3><ul id="service"></ul></article></div></section>
       <section class="detail-section notice" id="noticeSection"><h3>预约与游览提醒</h3><p id="notice"></p></section>
-      <section class="detail-cta"><div><h2>准备好逛北京了吗？</h2><p>团期、余位、房型与最终价格，请在报名时确认。</p></div><a class="button" href="../#contact">查看报名须知</a></section>
+
     </div>
-  <nav class="route-return" aria-label="更多北京线路"><a href="./">← 返回北京线路合集</a><a href="../#collections">查看全部主题 →</a></nav></main>
-  <footer class="footer"><img src="../assets/brand-symbol.jpg" alt="享轻松旅行"><p>享你所想 · 轻松旅行 · 只做纯玩游</p><p>© 2026 享轻松旅行</p><p>图片：Unsplash、Pexels、Wikimedia Commons；颐和园 Uwe Aranas / CC BY-SA，环球入口 Owen3droblox / CC BY-SA。</p></footer>
+  </main>
+
   <script src="route-data.js?v=20260904b"></script><script src="route.js?v=20260905r1"></script>
 </body>
 </html>
