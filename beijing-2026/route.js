@@ -32,7 +32,7 @@
   hero.src = "assets/" + r.image;
   hero.alt = r.title + " · 北京旅行风景";
   hero.fetchPriority = "high";
-  [["routeTitle",r.title],["routeLead",r.lead],["routeDays",r.days],["routeGroup",r.group],["routeTag",r.tag],["stay",r.stay],["notice",r.notice]].forEach(([key,value]) => {
+  [["routeTitle",r.title],["coverDays",r.days],["coverGroup",r.group],["routeGroup",r.group],["stay",r.stay],["notice",r.notice]].forEach(([key,value]) => {
     document.getElementById(key).textContent = value;
   });
   const meta = r.meta.map((value,index) => {
@@ -40,9 +40,7 @@
     box.append(element("small", ["基本信息","住宿 / 范围","线路亮点"][index]), element("b", value));
     return box;
   });
-  const price = element("div");
-  price.append(element("small","价格信息"),element("b","按团期确认"));
-  document.querySelector("#routeMeta").replaceChildren(...meta,price);
+  document.querySelector("#routeMeta").replaceChildren(...meta);
   const photoNames = {
     "forbidden-city.jpg":"故宫宫殿与红墙",
     "great-wall.jpg":"长城山峦",
@@ -52,6 +50,12 @@
     "birds-nest.jpg":"国家体育场鸟巢",
     "universal.jpg":"北京环球度假区入口"
   };
+  const photoSizes = {
+    "forbidden-city.jpg":[2400,1600], "great-wall.jpg":[2400,1600],
+    "temple-heaven-pexels.jpg":[2400,1600], "summer-palace.jpg":[3554,2369],
+    "hutong.jpg":[2400,3600], "birds-nest.jpg":[2400,1600], "universal.jpg":[3840,2560]
+  };
+  [hero.width,hero.height] = photoSizes[r.image];
   const itineraryText = r.itinerary.flat().join(" ");
   const candidates = [r.image,"forbidden-city.jpg","great-wall.jpg"];
   if (itineraryText.includes("天坛")) candidates.push("temple-heaven-pexels.jpg");
@@ -62,8 +66,7 @@
     img.src = "assets/" + name;
     img.alt = photoNames[name] || "北京旅行风景";
     img.loading = "lazy";
-    img.width = 1200;
-    img.height = 800;
+    [img.width,img.height] = photoSizes[name];
     return img;
   }));
   document.querySelector("#highlights").replaceChildren(...r.highlights.map(([title,copy],index) => {
