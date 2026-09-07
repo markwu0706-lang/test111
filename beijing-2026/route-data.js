@@ -1,9 +1,153 @@
 window.BEIJING_ROUTES={
-  budget:{title:"花小钱逛北京",days:"5天4晚",group:"2—8人精品小团",tag:"轻预算 · 全经典",lead:"把北京最有代表性的城门、宫殿、皇家园林与长城一次走全，预算友好，行程不缩水。",image:"forbidden-city.jpg",meta:["北京集散","4晚连住","0购物 · 0自费"],highlights:[["经典景点","前门、天安门、故宫、天坛、长城、颐和园与圆明园集中串联。"],["小团用车","2—8人成团，按人数安排5座、7座或9座车，一车一导。"],["住宿方案","二钻至四钻、希尔顿及雅高品牌等多档住宿方案可选。"]],itinerary:[["抵达北京","按约定时间抵达，专车接站后入住酒店，自由活动。"],["古都中轴","前门大街、天安门广场、毛主席纪念堂、故宫博物院、天坛公园。"],["长城与奥运","观看升旗仪式，八达岭或慕田峪长城，外观鸟巢与水立方。"],["皇家园林","颐和园、车览清华或北大外景、圆明园大门票，体验国潮茶叙。"],["温馨返程","早餐后按返程时间送站，结束北京之旅。"]],stay:"四晚北京住宿。提供二钻、三钻、四钻及希尔顿、雅高品牌等多档参考方案，以报名选择和出发前确认为准。",service:["北京机场或火车站接送各一次","全程旅游用车及司机服务","景点首道大门票","四次酒店早餐","行程游览服务"],notice:"故宫、毛主席纪念堂及升旗等项目实行实名预约与限流管理，需携带有效身份证件；如遇预约未成功或政策性关闭，按行程约定调整或退还相应门票差额。"},
-  cool:{title:"26°C 北京",days:"6天5晚",group:"2—12人精品小团",tag:"京津双城 · 舒适温度",lead:"北京经典地标加一天天津人文漫游，从皇家园林到老城街巷，节奏舒适、内容丰盛。",image:"summer-palace.jpg",meta:["北京集散","京津双城","0购物 · 0自费"],highlights:[["北京+天津","北京、天津双城。"],["特色体验","国潮茶叙、延北京早市、北平记忆演绎。"],["四环品质住宿","沿南四环三钻或四钻酒店方案。"]],itinerary:[["抵达北京","接站后入住酒店，自由活动。"],["天安门与故宫","天安门广场、毛主席纪念堂、故宫博物院，含特色餐食。"],["颐和园与天坛","颐和园、天坛公园，体验专属国潮茶叙。"],["升旗与长城","升旗、延北京早市、八达岭长城、北平记忆演绎，外观鸟巢与水立方。"],["天津一日游","周恩来邓颖超纪念馆、古文化街、意式风情街、五大道。"],["温馨返程","早餐后按返程时间安排送站。"]],stay:"北京段参考四环沿线南四环三钻或四钻酒店；具体酒店以团期确认单为准。",service:["北京接送站服务","行程用车与导游服务","景点首道大门票","五次酒店早餐及行程所列餐食","京津往返交通"],notice:"天津部分街区及纪念馆需以当日开放与预约为准。故宫等实名预约景点如遇限流，将按合同约定调整游览顺序或替换。"},
-  ring:{title:"二环之上",days:"5天4晚",group:"2—18人精品团",tag:"住进二环 · 博物馆主题",lead:"住进北京二环内，把故宫、长城与皇家园林装进行程，再用一座国家级博物馆读懂这座城。",image:"temple-heaven-pexels.jpg",meta:["二环内连住","博物馆主题","0购物 · 0自费"],highlights:[["核心位置","四晚二环内住宿。"],["博物馆主题","国家博物馆、军事博物馆或首都博物馆，根据预约择一安排。"],["特色餐食","饺子宴、八达岭自助餐与老北京烤鸭餐。"]],itinerary:[["抵达北京","接站后入住二环内酒店，自由活动。"],["古都中轴","天安门、毛主席纪念堂、故宫、天坛公园通票。"],["长城与园林","升旗、八达岭长城、外观鸟巢水立方、颐和园、外观清华北大。"],["博物馆之日","国博、军博或首博择一，体验专属国潮茶叙。"],["温馨返程","早餐后按返程时间送站。"]],stay:"四晚二环内住宿，可选商务三钻或豪华四钻参考方案，实际酒店以出发前确认为准。",service:["北京接送站各一次","旅游用车与游览服务","景点首道大门票","四次早餐及三次特色正餐","博物馆预约协助"],notice:"国家博物馆、军事博物馆与首都博物馆均受预约名额影响，按实际预约结果择一安排。6人及以下如不统一安排正餐，按产品规则退还餐费。"},
-  gate:{title:"住在天安门南100米",days:"5天4晚",group:"2—8人精品小团",tag:"核心地段 · 升旗友好",lead:"把住处放在北京中轴线旁，步行感受古都清晨与夜色，减少赶路，留出更多旅行时间。",image:"hutong.jpg",meta:["天安门南","2—8人","4晚连住"],highlights:[["住宿位置","参考入住天安门南约100米区域酒店。"],["行程景点","故宫、天坛、长城、八大处、颐和园与圆明园。"],["小包团出行","2—8人小团，含接送站与行程用车。"]],itinerary:[["抵达北京","专车接站，入住核心区域酒店。"],["天安门与故宫","天安门、毛主席纪念堂、故宫，体验国潮茶叙。"],["升旗与长城","升旗、八达岭长城、外观鸟巢水立方、天坛公园通票。"],["西山与皇家园林","八大处公园、颐和园、外观清华北大、圆明园大门票。"],["温馨返程","按返程时间安排送站。"]],stay:"四晚参考入住天安门南约100米区域酒店或同级方案；具体酒店与房型以团期确认单为准。",service:["北京接送站各一次","小团旅游用车","景点首道大门票","四次酒店早餐","行程游览服务"],notice:"核心区域酒店以实际房态为准。故宫、毛主席纪念堂和升旗须实名预约，参观时请携带预约所用有效证件。"},
-  atour:{title:"二环亚朵",days:"5天4晚",group:"2—8人精品小团",tag:"品牌住宿 · 城市漫游",lead:"以二环沿线品牌酒店为旅途基点，在经典北京与城市文化之间找到更舒服的节奏。",image:"birds-nest.jpg",meta:["品牌酒店","二环沿线","2—8人"],highlights:[["品牌住宿","参考亚朵、漫心、桔子水晶等品牌酒店。"],["核心景点","天安门、故宫、天坛、八达岭、颐和园与奥运地标。"],["博物馆与茶叙","国博、军博或首博择一，搭配国潮茶叙。"]],itinerary:[["抵达北京","接站后入住二环沿线品牌酒店。"],["中轴经典","天安门、毛主席纪念堂、故宫、天坛公园通票。"],["长城与园林","升旗、八达岭长城、外观鸟巢水立方、颐和园、外观清华北大。"],["博物馆漫游","国博、军博或首博择一，体验国潮茶叙。"],["温馨返程","早餐后送站，结束行程。"]],stay:"四晚参考亚朵、漫心、桔子水晶等二环沿线品牌酒店，也可按产品方案匹配二环三钻或四钻酒店。",service:["北京接送站服务","全程旅游用车","景点首道大门票","四次酒店早餐","博物馆预约协助"],notice:"品牌酒店以实际房态与团期确认为准；博物馆类景点按预约结果择一安排。"},
-  hello:{title:"你好北京",days:"5天4晚",group:"2—18人精品团",tag:"三大主题 · 经典首选",lead:"自然地理、人文历史与老北京民俗三条线交织，适合第一次来北京，也适合一家人共同出发。",image:"great-wall.jpg",meta:["北京集散","三大主题","含特色餐"],highlights:[["三大主题","自然地理、人文历史、老北京民俗。"],["北京味道","饺子宴、八达岭自助餐、老北京烤鸭餐。"]],itinerary:[["抵达北京","接站后入住酒店，自由活动。"],["天安门与故宫","天安门、毛主席纪念堂、故宫，体验国潮茶叙。"],["升旗与长城","升旗、八达岭长城、外观鸟巢水立方、天坛公园通票。"],["八大处与园林","八大处公园、颐和园、外观清华北大、圆明园大门票。"],["温馨返程","早餐后按返程时间送站。"]],stay:"四晚北京住宿，产品提供四环沿线连锁、商务与豪华酒店档位，具体以报名方案为准。",service:["北京接送站各一次","旅游用车与游览服务","景点首道大门票","四次早餐及三次特色餐","国潮茶叙体验"],notice:"6人及以下如不统一安排正餐，按产品规则退还餐费。实名预约景点的开放与名额以主管部门为准。"},
-  double:{title:"双环记",days:"6天5晚",group:"2—18人精品团",tag:"北京经典 · 环球影城",lead:"前四天走完古都经典，第五天沉浸北京环球影城，把文化与欢乐写进同一次旅行。",image:"universal.jpg",meta:["二环住宿","环球影城","6天5晚"],highlights:[["经典+主题乐园","故宫、长城、皇家园林与北京环球影城。"],["环球影城","环球影城一日游，七大主题景区。"],["二环品质住宿","二环内酒店连住。"]],itinerary:[["抵达北京","接站后入住酒店，自由活动。"],["古都中轴","天安门、毛主席纪念堂、故宫、天坛公园通票。"],["长城与园林","升旗、八达岭长城、外观鸟巢水立方、颐和园、外观清华北大。"],["博物馆主题","国博、军博或首博择一，体验国潮茶叙。"],["环球影城一日游","全天畅游北京环球影城，体验七大主题景区。"],["温馨返程","早餐后按返程时间送站。"]],stay:"北京段参考二环内三钻或四钻酒店方案；环球影城游玩日仍住北京，具体酒店以出发前确认为准。",service:["北京接送站服务","全程一车一导","北京经典景点首道门票","北京环球影城门票","行程所列早餐及特色餐"],notice:"环球影城开放项目、演出与运营时间以园区当日公告为准。故宫和博物馆等实名预约项目按实际预约结果安排。"}
+  budget:{photos:["qianmen-night-hd.webp","tiananmen-hd.webp","great-wall.jpg","temple-heaven-pexels.jpg"],title:"花小钱逛北京",days:"5天4晚",group:"2—8人精品小团",tag:"轻预算 · 全经典",lead:"把北京最有代表性的城门、宫殿、皇家园林与长城一次走全，预算友好，行程不缩水。",image:"forbidden-city.jpg",meta:["北京集散","4晚连住","0购物 · 0自费"],highlights:[["经典景点","前门、天安门、故宫、天坛、长城、颐和园与圆明园集中串联。"],["小团用车","2—8人成团，按人数安排5座、7座或9座车，一车一导。"],["住宿方案","二钻至四钻、希尔顿及雅高品牌等多档住宿方案可选。"]],itinerary:[["抵达北京","按约定时间抵达，专车接站后入住酒店，自由活动。"],["古都中轴","前门大街、天安门广场、毛主席纪念堂、故宫博物院、天坛公园。"],["长城与奥运","观看升旗仪式，八达岭或慕田峪长城，外观鸟巢与水立方。"],["皇家园林","颐和园、车览清华或北大外景、圆明园大门票，体验国潮茶叙。"],["温馨返程","早餐后按返程时间送站，结束北京之旅。"]],stay:"四晚北京住宿。提供二钻、三钻、四钻及希尔顿、雅高品牌等多档参考方案，以报名选择和出发前确认为准。",service:["北京机场或火车站接送各一次","全程旅游用车及司机服务","景点首道大门票","四次酒店早餐","行程游览服务"],notice:"故宫、毛主席纪念堂及升旗等项目实行实名预约与限流管理，需携带有效身份证件；如遇预约未成功或政策性关闭，按行程约定调整或退还相应门票差额。"},
+  cool:{photos:["tianjin-wudadao-hd.webp","tianjin-guwenhua-hd.webp","forbidden-city.jpg","water-cube-hd.webp"],title:"26°C 北京",days:"6天5晚",group:"2—12人精品小团",tag:"京津双城 · 舒适温度",lead:"北京经典地标加一天天津人文漫游，从皇家园林到老城街巷，节奏舒适、内容丰盛。",image:"summer-palace.jpg",meta:["北京集散","京津双城","0购物 · 0自费"],highlights:[["北京+天津","北京、天津双城。"],["特色体验","国潮茶叙、延北京早市、北平记忆演绎。"],["四环品质住宿","沿南四环三钻或四钻酒店方案。"]],itinerary:[["抵达北京","接站后入住酒店，自由活动。"],["天安门与故宫","天安门广场、毛主席纪念堂、故宫博物院，含特色餐食。"],["颐和园与天坛","颐和园、天坛公园，体验专属国潮茶叙。"],["升旗与长城","升旗、延北京早市、八达岭长城、北平记忆演绎，外观鸟巢与水立方。"],["天津一日游","周恩来邓颖超纪念馆、古文化街、意式风情街、五大道。"],["温馨返程","早餐后按返程时间安排送站。"]],stay:"北京段参考四环沿线南四环三钻或四钻酒店；具体酒店以团期确认单为准。",service:["北京接送站服务","行程用车与导游服务","景点首道大门票","五次酒店早餐及行程所列餐食","京津往返交通"],notice:"天津部分街区及纪念馆需以当日开放与预约为准。故宫等实名预约景点如遇限流，将按合同约定调整游览顺序或替换。"},
+  ring:{photos:["national-museum-hd.webp","forbidden-city.jpg","summer-palace.jpg","water-cube-hd.webp"],title:"二环之上",days:"5天4晚",group:"2—18人精品团",tag:"住进二环 · 博物馆主题",lead:"住进北京二环内，把故宫、长城与皇家园林装进行程，再用一座国家级博物馆读懂这座城。",image:"temple-heaven-pexels.jpg",meta:["二环内连住","博物馆主题","0购物 · 0自费"],highlights:[["核心位置","四晚二环内住宿。"],["博物馆主题","国家博物馆、军事博物馆或首都博物馆，根据预约择一安排。"],["特色餐食","饺子宴、八达岭自助餐与老北京烤鸭餐。"]],itinerary:[["抵达北京","接站后入住二环内酒店，自由活动。"],["古都中轴","天安门、毛主席纪念堂、故宫、天坛公园通票。"],["长城与园林","升旗、八达岭长城、外观鸟巢水立方、颐和园、外观清华北大。"],["博物馆之日","国博、军博或首博择一，体验专属国潮茶叙。"],["温馨返程","早餐后按返程时间送站。"]],stay:"四晚二环内住宿，可选商务三钻或豪华四钻参考方案，实际酒店以出发前确认为准。",service:["北京接送站各一次","旅游用车与游览服务","景点首道大门票","四次早餐及三次特色正餐","博物馆预约协助"],notice:"国家博物馆、军事博物馆与首都博物馆均受预约名额影响，按实际预约结果择一安排。6人及以下如不统一安排正餐，按产品规则退还餐费。"},
+  gate:{photos:["tiananmen-hd.webp","qianmen-night-hd.webp","badachu-dabei-hd.webp","summer-palace.jpg"],title:"住在天安门南100米",days:"5天4晚",group:"2—8人精品小团",tag:"核心地段 · 升旗友好",lead:"把住处放在北京中轴线旁，步行感受古都清晨与夜色，减少赶路，留出更多旅行时间。",image:"hutong.jpg",meta:["天安门南","2—8人","4晚连住"],highlights:[["住宿位置","参考入住天安门南约100米区域酒店。"],["行程景点","故宫、天坛、长城、八大处、颐和园与圆明园。"],["小包团出行","2—8人小团，含接送站与行程用车。"]],itinerary:[["抵达北京","专车接站，入住核心区域酒店。"],["天安门与故宫","天安门、毛主席纪念堂、故宫，体验国潮茶叙。"],["升旗与长城","升旗、八达岭长城、外观鸟巢水立方、天坛公园通票。"],["西山与皇家园林","八大处公园、颐和园、外观清华北大、圆明园大门票。"],["温馨返程","按返程时间安排送站。"]],stay:"四晚参考入住天安门南约100米区域酒店或同级方案；具体酒店与房型以团期确认单为准。",service:["北京接送站各一次","小团旅游用车","景点首道大门票","四次酒店早餐","行程游览服务"],notice:"核心区域酒店以实际房态为准。故宫、毛主席纪念堂和升旗须实名预约，参观时请携带预约所用有效证件。"},
+  atour:{photos:["water-cube-hd.webp","temple-heaven-pexels.jpg","national-museum-hd.webp","great-wall.jpg"],title:"二环亚朵",days:"5天4晚",group:"2—8人精品小团",tag:"品牌住宿 · 城市漫游",lead:"以二环沿线品牌酒店为旅途基点，在经典北京与城市文化之间找到更舒服的节奏。",image:"birds-nest.jpg",meta:["品牌酒店","二环沿线","2—8人"],highlights:[["品牌住宿","参考亚朵、漫心、桔子水晶等品牌酒店。"],["核心景点","天安门、故宫、天坛、八达岭、颐和园与奥运地标。"],["博物馆与茶叙","国博、军博或首博择一，搭配国潮茶叙。"]],itinerary:[["抵达北京","接站后入住二环沿线品牌酒店。"],["中轴经典","天安门、毛主席纪念堂、故宫、天坛公园通票。"],["长城与园林","升旗、八达岭长城、外观鸟巢水立方、颐和园、外观清华北大。"],["博物馆漫游","国博、军博或首博择一，体验国潮茶叙。"],["温馨返程","早餐后送站，结束行程。"]],stay:"四晚参考亚朵、漫心、桔子水晶等二环沿线品牌酒店，也可按产品方案匹配二环三钻或四钻酒店。",service:["北京接送站服务","全程旅游用车","景点首道大门票","四次酒店早餐","博物馆预约协助"],notice:"品牌酒店以实际房态与团期确认为准；博物馆类景点按预约结果择一安排。"},
+  hello:{photos:["badachu-dabei-hd.webp","temple-heaven-pexels.jpg","forbidden-city.jpg","summer-palace.jpg"],title:"你好北京",days:"5天4晚",group:"2—18人精品团",tag:"三大主题 · 经典首选",lead:"自然地理、人文历史与老北京民俗三条线交织，适合第一次来北京，也适合一家人共同出发。",image:"great-wall.jpg",meta:["北京集散","三大主题","含特色餐"],highlights:[["三大主题","自然地理、人文历史、老北京民俗。"],["北京味道","饺子宴、八达岭自助餐、老北京烤鸭餐。"]],itinerary:[["抵达北京","接站后入住酒店，自由活动。"],["天安门与故宫","天安门、毛主席纪念堂、故宫，体验国潮茶叙。"],["升旗与长城","升旗、八达岭长城、外观鸟巢水立方、天坛公园通票。"],["八大处与园林","八大处公园、颐和园、外观清华北大、圆明园大门票。"],["温馨返程","早餐后按返程时间送站。"]],stay:"四晚北京住宿，产品提供四环沿线连锁、商务与豪华酒店档位，具体以报名方案为准。",service:["北京接送站各一次","旅游用车与游览服务","景点首道大门票","四次早餐及三次特色餐","国潮茶叙体验"],notice:"6人及以下如不统一安排正餐，按产品规则退还餐费。实名预约景点的开放与名额以主管部门为准。"},
+  double:{photos:["universal-castle-hd.webp","birds-nest.jpg","summer-palace.jpg","national-museum-hd.webp"],title:"双环记",days:"6天5晚",group:"2—18人精品团",tag:"北京经典 · 环球影城",lead:"前四天走完古都经典，第五天沉浸北京环球影城，把文化与欢乐写进同一次旅行。",image:"universal.jpg",meta:["二环住宿","环球影城","6天5晚"],highlights:[["经典+主题乐园","故宫、长城、皇家园林与北京环球影城。"],["环球影城","环球影城一日游，七大主题景区。"],["二环品质住宿","二环内酒店连住。"]],itinerary:[["抵达北京","接站后入住酒店，自由活动。"],["古都中轴","天安门、毛主席纪念堂、故宫、天坛公园通票。"],["长城与园林","升旗、八达岭长城、外观鸟巢水立方、颐和园、外观清华北大。"],["博物馆主题","国博、军博或首博择一，体验国潮茶叙。"],["环球影城一日游","全天畅游北京环球影城，体验七大主题景区。"],["温馨返程","早餐后按返程时间送站。"]],stay:"北京段参考二环内三钻或四钻酒店方案；环球影城游玩日仍住北京，具体酒店以出发前确认为准。",service:["北京接送站服务","全程一车一导","北京经典景点首道门票","北京环球影城门票","行程所列早餐及特色餐"],notice:"环球影城开放项目、演出与运营时间以园区当日公告为准。故宫和博物馆等实名预约项目按实际预约结果安排。"}
+};
+
+// Per-route photo metadata; source licenses remain attached to their actual images.
+window.BEIJING_PHOTOS={
+  "forbidden-city.jpg": {
+    "src": "forbidden-city.jpg",
+    "alt": "故宫宫殿与红墙",
+    "width": 2400,
+    "height": 1600
+  },
+  "great-wall.jpg": {
+    "src": "great-wall.jpg",
+    "alt": "长城山峦",
+    "width": 2400,
+    "height": 1600
+  },
+  "temple-heaven-pexels.jpg": {
+    "src": "temple-heaven-pexels.jpg",
+    "alt": "天坛祈年殿",
+    "width": 2400,
+    "height": 1600
+  },
+  "hutong.jpg": {
+    "src": "hutong.jpg",
+    "alt": "北京胡同",
+    "width": 2400,
+    "height": 3600
+  },
+  "birds-nest.jpg": {
+    "src": "birds-nest.jpg",
+    "alt": "国家体育场鸟巢",
+    "width": 2400,
+    "height": 1600
+  },
+  "summer-palace.jpg": {
+    "src": "summer-palace.jpg",
+    "alt": "颐和园与昆明湖",
+    "width": 3554,
+    "height": 2369,
+    "source": "https://commons.wikimedia.org/wiki/File:Beijing_China_Summer-Palace-02.jpg",
+    "credit": "Photo by CEphoto, Uwe Aranas",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "inlineCredit": true
+  },
+  "universal.jpg": {
+    "src": "universal.jpg",
+    "alt": "北京环球影城入口",
+    "width": 3840,
+    "height": 2560,
+    "source": "https://commons.wikimedia.org/wiki/File:Beijing_universal_entrance.jpg",
+    "credit": "Owen3droblox",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "changes": "按比例缩放"
+  },
+  "badachu-dabei-hd.webp": {
+    "src": "badachu-dabei-hd.webp",
+    "alt": "北京八大处大悲寺",
+    "width": 2880,
+    "height": 1920,
+    "source": "https://commons.wikimedia.org/wiki/File:Dabei_Temple,_Badachu_(20250427102106).jpg",
+    "credit": "N509FZ",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "changes": "按比例缩放及 WebP 编码"
+  },
+  "national-museum-hd.webp": {
+    "src": "national-museum-hd.webp",
+    "alt": "中国国家博物馆",
+    "width": 2880,
+    "height": 1920,
+    "source": "https://commons.wikimedia.org/wiki/File:National_Museum_of_China_(9835158855).jpg",
+    "credit": "Gary Todd",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "按比例缩放及 WebP 编码"
+  },
+  "tianjin-guwenhua-hd.webp": {
+    "src": "tianjin-guwenhua-hd.webp",
+    "alt": "天津古文化街",
+    "width": 2880,
+    "height": 2047,
+    "source": "https://commons.wikimedia.org/wiki/File:Tianjin_Guwenhua_Jie-20150522-RM-120620.jpg",
+    "credit": "Ermell",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "changes": "按比例缩放及 WebP 编码"
+  },
+  "tianjin-wudadao-hd.webp": {
+    "src": "tianjin-wudadao-hd.webp",
+    "alt": "天津五大道街景",
+    "width": 2880,
+    "height": 1583,
+    "source": "https://commons.wikimedia.org/wiki/File:Five_Great_Avenues_21472-Tianjin_(49063227733).jpg",
+    "credit": "xiquinhosilva",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "changes": "按比例缩放及 WebP 编码"
+  },
+  "tiananmen-hd.webp": {
+    "src": "tiananmen-hd.webp",
+    "alt": "北京天安门广场与城楼",
+    "width": 2880,
+    "height": 1920,
+    "source": "https://commons.wikimedia.org/wiki/File:Tian%27anmen_from_the_square_(20200825114150).jpg",
+    "credit": "N509FZ",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "changes": "按比例缩放及 WebP 编码"
+  },
+  "water-cube-hd.webp": {
+    "src": "water-cube-hd.webp",
+    "alt": "北京国家游泳中心水立方",
+    "width": 2880,
+    "height": 1839,
+    "source": "https://commons.wikimedia.org/wiki/File:Beijing_National_Aquatics_Centre_(CHN).jpg",
+    "credit": "N509FZ",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "changes": "按比例缩放及 WebP 编码"
+  },
+  "qianmen-night-hd.webp": {
+    "src": "qianmen-night-hd.webp",
+    "alt": "北京前门大街夜景",
+    "width": 2847,
+    "height": 1873,
+    "source": "https://commons.wikimedia.org/wiki/File:Qianmen_SOHO_China.jpg",
+    "credit": "Jonathan Leijonhufvud / SOHO China（AsAuSo 提供）",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "changes": "按比例缩放及 WebP 编码"
+  },
+  "universal-castle-hd.webp": {
+    "src": "universal-castle-hd.webp",
+    "alt": "北京环球影城霍格沃茨城堡夜景",
+    "width": 2880,
+    "height": 2160,
+    "credit": "SSYoung",
+    "source": "https://commons.wikimedia.org/wiki/File:The_Nighttime_Magic_at_the_Hogwarts_Castle,_Universal_Beijing_Resort,_Oct_2021.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "changes": "按比例缩放及 WebP 编码"
+  }
 };

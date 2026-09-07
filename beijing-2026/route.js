@@ -56,19 +56,60 @@
     "hutong.jpg":[2400,3600], "birds-nest.jpg":[2400,1600], "universal.jpg":[3840,2560]
   };
   [hero.width,hero.height] = photoSizes[r.image];
-  const itineraryText = r.itinerary.flat().join(" ");
-  const candidates = [r.image,"forbidden-city.jpg","great-wall.jpg"];
-  if (itineraryText.includes("天坛")) candidates.push("temple-heaven-pexels.jpg");
-  if (itineraryText.includes("颐和园")) candidates.push("summer-palace.jpg");
-  if (itineraryText.includes("环球")) candidates.push("universal.jpg");
-  document.querySelector("#photoGrid").replaceChildren(...[...new Set(candidates)].map(name => {
+  const photoCatalog = window.BEIJING_PHOTOS || {};
+  function photoCredit(photo, paragraph) {
+    const source = element("a", photo.alt + " · " + photo.credit);
+    source.href = photo.source;
+    paragraph.append(source);
+    if (photo.license && photo.licenseUrl) {
+      paragraph.append(document.createTextNode(" · "));
+      const license = element("a",photo.license);
+      license.href = photo.licenseUrl;
+      paragraph.append(license);
+    }
+    if (photo.changes) paragraph.append(document.createTextNode(" · " + photo.changes));
+  }
+  const heroPhoto = photoCatalog[r.image];
+  const heroCredit = document.querySelector("#heroCredit");
+  if (heroCredit && heroPhoto?.inlineCredit) {
+    photoCredit(heroPhoto, heroCredit);
+    heroCredit.hidden = false;
+  }
+  const gallery = [...new Set(r.photos || [r.image])].map(name => {
+    if (photoCatalog[name]) return photoCatalog[name];
+    const size = photoSizes[name];
+    return size ? {src:name,alt:photoNames[name],width:size[0],height:size[1]} : null;
+  }).filter(Boolean);
+  document.querySelector("#photoGrid").replaceChildren(...gallery.map(photo => {
     const img = element("img");
-    img.src = "assets/" + name;
-    img.alt = photoNames[name] || "北京旅行风景";
+    img.src = "assets/" + photo.src;
+    img.alt = photo.alt;
     img.loading = "lazy";
-    [img.width,img.height] = photoSizes[name];
-    return img;
+    img.decoding = "async";
+    img.width = photo.width;
+    img.height = photo.height;
+    if (!photo.inlineCredit) return img;
+    const group = element("div");
+    const caption = element("p",undefined,"photo-sources");
+    photoCredit(photo,caption);
+    group.append(img,caption);
+    return group;
   }));
+  const credits = document.querySelector("#photoCredits");
+  const creditedPhotos = [photoCatalog[r.image],...gallery].filter(photo => photo && photo.credit);
+  if (credits) {
+    credits.replaceChildren(element("summary","摄影来源"));
+    const seen = new Set();
+    creditedPhotos.forEach(photo => {
+      const key = photo.source + photo.credit;
+      if (seen.has(key)) return;
+      seen.add(key);
+      const paragraph = element("p");
+      photoCredit(photo,paragraph);
+      credits.append(paragraph);
+    });
+    credits.hidden = creditedPhotos.length === 0;
+  }
   document.querySelector("#highlights").replaceChildren(...r.highlights.map(([title,copy],index) => {
     const article = element("article", undefined, "highlight");
     article.append(element("span",String(index + 1).padStart(2,"0")),element("h3",title),element("p",copy));
